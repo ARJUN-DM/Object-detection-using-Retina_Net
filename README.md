@@ -34,10 +34,33 @@ Abstract steps of the code:
 The script aims to showcase real-time object detection using a pre-trained model and provides visual feedback on the detected objects, FPS, and inference time for each frame in the input video. The output video ('output_video.mp4') will contain the processed frames with bounding boxes around detected objects.
 
 ## System configurations
-<OL>
-  Processor : Intel® Core™ i5-6200U CPU @ 2.30GHz × 4
-  Memory : 16GB
-  Graphics : Mesa Intel® HD Graphics 520 SKL GT2
-  Disk capacity : 480.1 GB
-  OS Name : Ubuntu 20.04.6 LTS
-</OL>
+
+  >Processor : Intel® Core™ i5-6200U CPU @ 2.30GHz × 4
+  
+  >Memory : 16GB
+  
+  >Graphics : Mesa Intel® HD Graphics 520 SKL GT2
+  
+  >Disk capacity : 480.1 GB
+  
+  >OS Name : Ubuntu 20.04.6 LTS
+
+
+## Packages and libraries required
+> 1. Opencv-pythoon
+> 2. Numpy
+> 3. Keras-resnet
+> 4. Keras-retinanet
+> 5. Tensorflow
+
+## Inference time and FPS examined in Retina_Net
+---------------------------------------------
+| Sl.no | Resolution | Inference Time | FPS |
+|-------|------------|----------------|-----|
+| 1.    | 640x480    | 4067.00        | 0.24|
+| 2.    | 1280x720   | 4492.64        | 0.22|
+| 3.    | 1920x1080  | 4916.05        | 0.20|
+| 4.    | 2560x1440  | 4417.02        | 0.23|
+| 5.    | 2048x1080  | 4192.61        | 0.24|
+| 6.    | 3840x2160  | 4362.50        | 0.23|
+| 7.    | 7680x4320  | 4797.06        | 0.21|
