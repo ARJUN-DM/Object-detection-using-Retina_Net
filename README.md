@@ -7,7 +7,7 @@ Abstract steps of the code:
 
 1. Load the pre-trained RetinaNet model with the ResNet-50 backbone from the 'resnet50_coco_best_v2.1.0.h5' file.
 
-2. Open the input video ('1410202020543050_20201014205430.mp4') using OpenCV and get its frames per second, width, and height.
+2. Open the input video ('Your Input video') using OpenCV and get its frames per second, width, and height.(You have to specify your input video file path name inside the video_path declaratiion)
 
 3. Create an output video writer to save the processed video with bounding boxes.
 
